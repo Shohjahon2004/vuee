@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    transition: all 2ms;
+    gap: 10px;
+}
+button{
+    border-radius: 6px;
+    padding: 3px;
+}
+.texts{
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+p{
+    padding-top: 10px;
+}
